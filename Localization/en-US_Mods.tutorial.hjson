@@ -1,0 +1,48 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	BaseballBat: {
+		DisplayName: Baseball Bat
+		Tooltip: Home Run!
+	}
+
+	MetalBaseballBat: {
+		DisplayName: Metal Baseball Bat
+		Tooltip: ""
+	}
+
+	StonePickaxe: {
+		DisplayName: Stone Pickaxe
+		Tooltip: ""
+	}
+
+	StoneAxe: {
+		DisplayName: Stone Axe
+		Tooltip: ""
+	}
+
+	StonePickaxeAxe: {
+		DisplayName: Stone Pickaxe Axe
+		Tooltip: ""
+	}
+
+	CondensedGel: {
+		DisplayName: Condensed Gel
+		Tooltip: Not as sticky as the normal stuff
+	}
+
+	CondensedGelHelmet: {
+		DisplayName: Condensed Gel Helmet
+		Tooltip: ""
+	}
+
+	CondensedGelBreastplate: {
+		DisplayName: Condensed Gel Breastplate
+		Tooltip: ""
+	}
+
+	CondensedGelLeggings: {
+		DisplayName: Condensed Gel Leggings
+		Tooltip: ""
+	}
+}

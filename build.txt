@@ -1,0 +1,3 @@
+displayName = totorial mod
+author = newbiemodder
+version = 0.1

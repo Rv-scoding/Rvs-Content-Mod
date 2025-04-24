@@ -1,0 +1,40 @@
+using Microsoft.Xna.Framework;
+using Terraria;
+using Terraria.ID;
+using Terraria.ModLoader;
+
+namespace tutorial.Content.Items.Tools
+{
+    public class StonePickaxe : ModItem
+    {
+        public override void SetDefaults() 
+        {
+            Item.damage = 10;
+            Item.DamageType = DamageClass.Melee;
+            Item.width = 40;
+			Item.height = 40;
+			Item.useTime = 19;
+            Item.useAnimation = 19;
+			Item.useStyle = ItemUseStyleID.Swing;
+			Item.knockBack = 6;
+            Item.value = Item.buyPrice(copper: 1);
+            Item.rare = ItemRarityID.Blue;
+            Item.UseSound = SoundID.Item1;
+            Item.autoReuse = true;
+
+            Item.pick = 40;
+            Item.attackSpeedOnlyAffectsWeaponAnimation = true;
+        }
+        public override void AddRecipes() 
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.StoneBlock, 8);
+            recipe.AddTile(TileID.Anvils);
+            recipe.Register();
+
+
+
+
+        }   
+    }
+}
