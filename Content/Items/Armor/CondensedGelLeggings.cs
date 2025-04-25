@@ -15,13 +15,13 @@ namespace tutorial.Content.Items.Armor
 			Item.height = 18; 
 			Item.value = Item.sellPrice(gold: 4); 
 			Item.rare = ItemRarityID.Green; 
-			Item.defense = 9;
+			Item.defense = 6;
         }
 
         public override void AddRecipes() 
         {
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient<CondensedGel>();
+			recipe.AddIngredient<CondensedGel>(20);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
         }

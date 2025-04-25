@@ -13,8 +13,8 @@ namespace tutorial.Content.Items.Tools
             Item.DamageType = DamageClass.Melee;
             Item.width = 40;
 			Item.height = 40;
-			Item.useTime = 19;
-            Item.useAnimation = 19;
+			Item.useTime = 18;
+            Item.useAnimation = 18;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 6;
             Item.value = Item.buyPrice(copper: 1);
@@ -23,8 +23,8 @@ namespace tutorial.Content.Items.Tools
             Item.autoReuse = true;
 
             
-            Item.pick = 40;
-            Item.axe = 8;
+            Item.pick = 45;
+            Item.axe = 9;
             Item.attackSpeedOnlyAffectsWeaponAnimation = true;
         }
         public override void AddRecipes() 

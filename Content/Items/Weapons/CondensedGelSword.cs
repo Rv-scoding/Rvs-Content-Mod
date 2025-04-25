@@ -1,11 +1,12 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using tutorial.Content.Items.Materials;
 
 namespace tutorial.Content.Items.Weapons
 { 
 	
-	public class MetalBaseballBat : ModItem
+	public class CondensedGelSword : ModItem
 	{
 		
 		public override void SetDefaults()
@@ -14,10 +15,10 @@ namespace tutorial.Content.Items.Weapons
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 50;
 			Item.height = 50;
-			Item.useTime = 28;
-			Item.useAnimation = 28;
+			Item.useTime = 15;
+			Item.useAnimation = 15;
 			Item.useStyle = ItemUseStyleID.Swing;
-			Item.knockBack = 2000;
+			Item.knockBack = 15;
 			Item.value = Item.buyPrice(gold: 1);
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
@@ -27,7 +28,7 @@ namespace tutorial.Content.Items.Weapons
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.IronBar, 30);
+			recipe.AddIngredient<CondensedGel>(25);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
 		}

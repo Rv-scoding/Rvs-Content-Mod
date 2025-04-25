@@ -45,4 +45,9 @@ Items: {
 		DisplayName: Condensed Gel Leggings
 		Tooltip: ""
 	}
+
+	CondensedGelSword: {
+		DisplayName: Condensed Gel Sword
+		Tooltip: ""
+	}
 }

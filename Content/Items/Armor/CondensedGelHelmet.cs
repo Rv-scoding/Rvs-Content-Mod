@@ -21,7 +21,7 @@ namespace tutorial.Content.Items.Armor
         public override void AddRecipes() 
         {
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient<CondensedGel>();
+			recipe.AddIngredient<CondensedGel>(15);
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
         }

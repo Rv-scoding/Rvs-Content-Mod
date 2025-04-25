@@ -14,14 +14,14 @@ namespace tutorial.Content.Items.Weapons
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 50;
 			Item.height = 50;
-			Item.useTime = 18;
-			Item.useAnimation = 18;
+			Item.useTime = 16;
+			Item.useAnimation = 16;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 1100;
 			Item.value = Item.buyPrice(silver: 20);
 			Item.rare = ItemRarityID.Blue;
 			Item.UseSound = SoundID.Item1;
-			Item.autoReuse = false;
+			Item.autoReuse = true;
 		}
 
 		public override void AddRecipes()
