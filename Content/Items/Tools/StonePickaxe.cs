@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace tutorial.Content.Items.Tools
+namespace RVScontentmod.Content.Items.Tools
 {
     public class StonePickaxe : ModItem
     {

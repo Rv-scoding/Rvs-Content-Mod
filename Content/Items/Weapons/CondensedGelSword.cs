@@ -1,9 +1,10 @@
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using tutorial.Content.Items.Materials;
+using RVScontentmod.Content.Items.Materials;
+using RVScontentmod.Content.Projectiles;
 
-namespace tutorial.Content.Items.Weapons
+namespace RVScontentmod.Content.Items.Weapons
 { 
 	
 	public class CondensedGelSword : ModItem
@@ -21,8 +22,10 @@ namespace tutorial.Content.Items.Weapons
 			Item.knockBack = 15;
 			Item.value = Item.buyPrice(gold: 1);
 			Item.rare = ItemRarityID.Blue;
-			Item.UseSound = SoundID.Item1;
+			Item.UseSound = SoundID.Item81;
 			Item.autoReuse = true;
+			Item.shoot = ModContent.ProjectileType<CondensedGelBall>();
+			Item.shootSpeed = 10f;
 		}
 
 		public override void AddRecipes()

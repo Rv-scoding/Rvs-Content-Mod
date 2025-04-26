@@ -2,9 +2,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.ItemDropRules;
-using tutorial.Content.Items.Materials;
+using RVScontentmod.Content.Items.Materials;
 
-namespace tutorial.Content.Items
+namespace RVScontentmod.Content.Items
 {
     public class BagDropGlobalItem : GlobalItem
     {

@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace tutorial.Content.Items.Weapons
+namespace RVScontentmod.Content.Items.Weapons
 { 
 	
 	public class MetalBaseballBat : ModItem

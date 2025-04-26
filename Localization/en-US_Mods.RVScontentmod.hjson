@@ -51,3 +51,5 @@ Items: {
 		Tooltip: ""
 	}
 }
+
+Projectiles.CondensedGelBall.DisplayName: Condensed Gel Ball

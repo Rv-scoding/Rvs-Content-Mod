@@ -2,9 +2,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
-using tutorial.Content.Items.Materials;
+using RVScontentmod.Content.Items.Materials;
 
-namespace tutorial.Content.Items.Armor
+namespace RVScontentmod.Content.Items.Armor
 {   
     [AutoloadEquip(EquipType.Body)]
     public class CondensedGelBreastplate : ModItem

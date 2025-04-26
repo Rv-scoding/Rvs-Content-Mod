@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.ItemDropRules;
 
-namespace tutorial.Content.Items.Materials
+namespace RVScontentmod.Content.Items.Materials
 { 
 	
 	public class CondensedGel : ModItem
