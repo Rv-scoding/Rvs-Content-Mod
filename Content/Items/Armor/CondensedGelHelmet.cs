@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using RVScontentmod.Content.Items.Materials;
+using RVScontentmod.Content.Players;
 
 namespace RVScontentmod.Content.Items.Armor
 {   
@@ -18,6 +19,21 @@ namespace RVScontentmod.Content.Items.Armor
 			Item.defense = 6;
         }
 
+        public override bool IsArmorSet(Item head, Item body, Item legs)
+        {
+            bool bodyMatch = body.type == ModContent.ItemType<CondensedGelBreastplate>();
+            bool legsMatch = legs.type == ModContent.ItemType<CondensedGelLeggings>();
+            return bodyMatch && legsMatch;
+        }
+
+        public override void UpdateArmorSet(Player player)
+        {
+            player.setBonus = "Enemies are knocked back when they hit you."; 
+            player.GetModPlayer<CondensedGelPlayer>().CondensedGelSetBonus = true;
+            
+            
+        }
+ 
         public override void AddRecipes() 
         {
 			Recipe recipe = CreateRecipe();
@@ -25,9 +41,6 @@ namespace RVScontentmod.Content.Items.Armor
 			recipe.AddTile(TileID.Anvils);
 			recipe.Register();
         }
+        
     }
-
-
-
-
 }

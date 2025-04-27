@@ -22,7 +22,7 @@ namespace RVScontentmod.Content.Items.Weapons
 			Item.knockBack = 15;
 			Item.value = Item.buyPrice(gold: 1);
 			Item.rare = ItemRarityID.Blue;
-			Item.UseSound = SoundID.Item81;
+			Item.UseSound = SoundID.Item154;
 			Item.autoReuse = true;
 			Item.shoot = ModContent.ProjectileType<CondensedGelBall>();
 			Item.shootSpeed = 10f;
