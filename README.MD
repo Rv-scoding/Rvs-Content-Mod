@@ -8,10 +8,10 @@ My mod is called
 The main aspects of this mod is that it adds items. There are 10 diffrent items that I created. I saddly didn't have enough time to add any npcs or bosses.
 I still think I did a good job with no experiance to modding or c# which is the language the game uses. 
 #### There are a few sources and sites that I found extremely helpful in creating and researching for this mod. They will be linked below. 
-Some hardships I encountered were 1. (Projectile troubles) The projectile I created has the same exact AI as an arrow would. 
+A hardship I encountered was (Projectile troubles) The projectile I created has the same exact AI an arrow would. 
 This lead to a problem were the arrow would spawn in then just fall to the ground and despawn. Not exactly what I had in mind. 
 I quickly relized that the arrow didnt have velocity because it was spawning in and being affected by gravity just not moving forward. 
-I tried for an hour or so before I figured out how to give the arrow velocity using the class Item and the field shootSpeed.
+I tried for an hour or so before I figured out how to give the arrow velocity using the class "Item" and the field "shootSpeed".
 So all I needed to do was give the item that was shooting the projectile the simple line of "Item.shootSpeed = 10f;" and it would instantly work. (I was very angry by how simple it was)
 Another hardship was the dreaded (armor ser bonus incident) were I was making a set bonus for my CondensedGel armor but nothing was changing when I reloaded.
 After hours of messing with things I finally looked into the cheat sheet menu to see. There were two sets of items in there. 
