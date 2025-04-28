@@ -26,20 +26,21 @@ I found a really cool sprite design site called "Piskel", Piskel was a real life
 
 
 
-
-
-<video controls src="2025-04-27 22-28-43.mp4" title="Title"></video>
-
-
+Walkthrough Video Link
+https://www.youtube.com/watch?v=dDnlItBcbhY
 
 
 
 
+
+
+https://www.piskelapp.com/
+These four are the tmodloader github, the terraria wiki, the terraria forums, and documentation of all tmodloader code. 
 https://github.com/tModLoader/tModLoader/wiki/Basic-tModLoader-Modding-Guide
 https://terraria.fandom.com/wiki/Terraria_Wiki
 https://forums.terraria.org/index.php?forums/
 https://docs.tmodloader.net/docs/stable/index.html
-https://www.piskelapp.com/
+These three videos were very helpful with making the armor and the projectile.
 https://youtu.be/Zf46rsYkTrs?si=nTJJfJ-iaOzdW5vd
 https://youtu.be/7tcxaKhhVsc?si=oeAJcsbjnWkTrhG6
 https://www.youtube.com/watch?v=Ov7JUsWt2xE
