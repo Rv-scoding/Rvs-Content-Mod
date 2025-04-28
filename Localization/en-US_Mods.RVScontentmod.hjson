@@ -43,7 +43,7 @@ Items: {
 
 	CondensedGelLeggings: {
 		DisplayName: Condensed Gel Leggings
-		Tooltip: ""
+		Tooltip: You are immune to knockback
 	}
 
 	CondensedGelSword: {

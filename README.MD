@@ -28,6 +28,10 @@ I found a really cool sprite design site called "Piskel", Piskel was a real life
 
 
 
+<video controls src="2025-04-27 22-28-43.mp4" title="Title"></video>
+
+
+
 
 
 

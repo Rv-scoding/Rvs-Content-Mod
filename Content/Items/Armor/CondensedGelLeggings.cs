@@ -9,6 +9,11 @@ namespace RVScontentmod.Content.Items.Armor
     [AutoloadEquip(EquipType.Legs)]
     public class CondensedGelLeggings : ModItem
     {
+        public override void SetStaticDefaults()
+        {
+           
+        }
+
         public override void SetDefaults()
         {
             Item.width = 18; 
@@ -16,7 +21,15 @@ namespace RVScontentmod.Content.Items.Armor
 			Item.value = Item.sellPrice(gold: 4); 
 			Item.rare = ItemRarityID.Green; 
 			Item.defense = 6;
+
         }
+
+        public override void UpdateEquip(Player player)
+        {
+            player.noKnockback = true;
+            
+        }
+        
 
         public override void AddRecipes() 
         {
@@ -26,6 +39,7 @@ namespace RVScontentmod.Content.Items.Armor
 			recipe.Register();
         }
     }
+    
 
 
 
