@@ -10,7 +10,7 @@ namespace RVScontentmod.Content.Items.Weapons
 		
 		public override void SetDefaults()
 		{
-			Item.damage = 60;
+			Item.damage = 45;
 			Item.DamageType = DamageClass.Melee;
 			Item.width = 50;
 			Item.height = 50;

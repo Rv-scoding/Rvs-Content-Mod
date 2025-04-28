@@ -5,7 +5,7 @@ using Terraria.GameContent.ItemDropRules;
 using RVScontentmod.Content.Items.Materials;
 
 namespace RVScontentmod.Content.Items
-{
+{ /*
     public class BagDropGlobalItem : GlobalItem
     {
         public override void ModifyItemLoot(Item item, ItemLoot itemLoot)
@@ -13,9 +13,11 @@ namespace RVScontentmod.Content.Items
             
             if (item.type == ItemID.KingSlimeBossBag)
             {
-                itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<CondensedGel>(), 1, 12, 25)); 
-                
+                if (Main.expertMode || Main.masterMode)  // Check both Expert and Master Mode
+                {
+                    itemLoot.Add(ItemDropRule.Common(ModContent.ItemType<CondensedGel>(), 1, 12, 25));
+                }
             }
         }
-    }
+    }*/
 }
